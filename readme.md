@@ -28,11 +28,13 @@ resource "yandex_compute_instance" "platform" {
     core_fraction = 5   # не подерживаемое платформой значение, указанная доля ядра недоступна на платформе "standard-v3"; разрешенные доли ядра: 20, 50, 100
   }
 ```
-скриншот ЛК Yandex Cloud :
+Параметры preemptible = true и core_fraction = 5 — это инструменты экономии и гибкого планирования ресурсов. 
+
+Cкриншот ЛК Yandex Cloud :
 
 ![Изображение](https://github.com/bitsl40/HWTER2/blob/main/vmycscr.png)
 
-криншот консоли, curl :
+Cкриншот консоли, curl :
 
 ![Изображение](https://github.com/bitsl40/HWTER2/blob/main/curl.png)
 
