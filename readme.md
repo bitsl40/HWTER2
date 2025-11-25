@@ -1,6 +1,6 @@
 # Домашнее задание к занятию «Основы Terraform. Yandex Cloud»
 
-
+[Сылка на репазиторий с заданием 1 ](https://github.com/bitsl40/HWTER2/tree/main/src)
 ### Задание 1
 
 
@@ -28,6 +28,13 @@ resource "yandex_compute_instance" "platform" {
     core_fraction = 5   # не подерживаемое платформой значение, указанная доля ядра недоступна на платформе "standard-v3"; разрешенные доли ядра: 20, 50, 100
   }
 ```
+скриншот ЛК Yandex Cloud :
+
+![Изображение](https://github.com/bitsl40/HWTER2/blob/main/vmycscr.png)
+
+криншот консоли, curl :
+
+![Изображение](https://github.com/bitsl40/HWTER2/blob/main/curl.png)
 
 ### Задание 2
 
