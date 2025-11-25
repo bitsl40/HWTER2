@@ -1,6 +1,6 @@
 # Домашнее задание к занятию «Основы Terraform. Yandex Cloud»
 
-[Сылка на репазиторий с заданием  ](https://github.com/bitsl40/HWTER2/tree/main/src)
+[Сcылка на репазиторий с заданием  ](https://github.com/bitsl40/HWTER2/tree/main/src)
 ### Задание 1
 
 
